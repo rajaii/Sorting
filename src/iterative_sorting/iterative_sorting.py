@@ -5,8 +5,15 @@ def selection_sort( arr ):
         cur_index = i
         smallest_index = cur_index
         # TO-DO: find next smallest element
-        # (hint, can do in 3 loc) 
-             
+        # (hint, can do in 3 loc)
+        j = i + 1
+        while j < len(arr) - 1: 
+            if arr[j] < arr[smallest_index]:
+                smallest_index = j
+                arr[smallest_index] = arr[j]
+        
+
+
 
 
 
@@ -16,6 +23,9 @@ def selection_sort( arr ):
 
 
     return arr
+
+array = [4,9,6,5,7]
+print(selection_sort(array))
 
 
 # TO-DO:  implement the Bubble Sort function below
