@@ -1,0 +1,29 @@
+[3,2,   4,7, 9,6]
+[0,1,   2,3, 4,5]
+
+bubble:
+ 
+set has swapped to true
+while has swapprd
+
+do nested for loops set 
+ 
+in second compare arr[i] to arr[j] 
+
+if j < i set temp to arr[i]
+
+ swap arr[i] = arr[j]
+ j = temp 
+
+ else swapped = false
+
+ bugs after implemented
+
+ starts switches and then keeps looping i as the lowest
+fix: 
+set breaks in nested loop if swapped and an else statement with a break 
+fix2 in the i set swapped to false and do a while swapped on the inner loop
+    then after swap set swapped to true and after the else
+    this variable name makes no sense so i renamed it comparison_done
+
+WORKING 
