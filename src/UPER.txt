@@ -6,7 +6,7 @@ bubble:
 set has swapped to true
 while has swapprd
 
-do nested for loops set 
+for loops set
  
 in second compare arr[i] to arr[j] 
 
@@ -26,4 +26,15 @@ fix2 in the i set swapped to false and do a while swapped on the inner loop
     then after swap set swapped to true and after the else
     this variable name makes no sense so i renamed it comparison_done
 
-WORKING 
+Ended up working as a selection sort
+
+selection sort:
+
+temp needed for swap
+
+set a smallest var (intialized to curr ) and on each loop reset if smaller than smallest
+nest another for loop
+loop through and see if a[j] < a[sm]
+    if so sm = a[j]
+
+exit loop and swap and continue looping and swapping until no swaps required
