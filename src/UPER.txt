@@ -38,3 +38,28 @@ loop through and see if a[j] < a[sm]
     if so sm = a[j]
 
 exit loop and swap and continue looping and swapping until no swaps required
+
+Merge sort
+
+1. While your data set contains more than one item, split it in half
+2. Once you have gotten down to a single element, you have also *sorted* that element 
+   (a single element cannot be "out of order")
+3. Start merging your single lists of one element together into larger, sorted sets
+4. Repeat step 3 until the entire data set has been reassembled
+```
+
+merge sort:
+split array down to halfs until arrays of len  
+DONE EASY WITH JACKSON pair programming STYLE
+
+
+merge:
+merge and sort lists 
+
+tagging length of arra and arrb with 0's in merged array
+somehow push values from passed in array into merged array and pop 0
+
+if len(arrA) = 1 and len arrB == 1 merge the 2
+compare arra[i] to arra[i+1]
+
+
